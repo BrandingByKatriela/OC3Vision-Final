@@ -217,3 +217,8 @@ body {
 .examples-list li a:hover {
   border-color: #4774bd; /* accent color on hover */
 }
+
+.home-btn {
+  float: right;
+  margin-top: -3rem; /* adjust as needed */
+}
