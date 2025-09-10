@@ -23,7 +23,7 @@ a:visited {
 
 /* Hover state */
 a:hover {
-  color: var(--electric);
+  color: #00008b;
   text-decoration: underline;
 }
 
