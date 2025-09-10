@@ -11,6 +11,28 @@
   box-sizing: border-box;
 }
 
+/* Unvisited link */
+a:link {
+  color: var(--electric);
+}
+
+/* Visited link (after click) */
+a:visited {
+  color: var(--warm-sand);
+}
+
+/* Hover state */
+a:hover {
+  color: var(--electric);
+  text-decoration: underline;
+}
+
+/* Active state (while clicking) */
+a:active {
+  color: var(--charcoal);
+}
+
+
 body {
   margin: 0;
   background: var(--charcoal);
