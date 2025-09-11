@@ -42,6 +42,14 @@ body {
   line-height: 1.5;
 }
 
+body {
+  background-image: url('O3 Vision Logo - Grey.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10 px; /* Adjust size to taste */
+  opacity: 0.01;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -222,12 +230,4 @@ body {
 .home-btn {
   float: right;
   margin-top: -3rem; /* adjust as needed */
-}
-
-body {
-  background-image: url('O3 Vision Logo - Grey.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100 px; /* Adjust size to taste */
-  opacity: 0.01;
 }
