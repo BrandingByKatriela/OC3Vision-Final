@@ -7,13 +7,6 @@
   --font-body:   'Montserrat', sans-serif;
 }
 
-body {
-  background-image: url('O3 Vision Logo - Grey.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 300 px; /* Adjust size to taste */
-  opacity: 0.1;
-}
 
 * {
   box-sizing: border-box;
@@ -21,7 +14,7 @@ body {
 
 /* Unvisited link */
 a:link {
-  color: var(--electric);
+  color: white;
 }
 
 /* Visited link (after click) */
@@ -229,4 +222,12 @@ body {
 .home-btn {
   float: right;
   margin-top: -3rem; /* adjust as needed */
+}
+
+body {
+  background-image: url('O3 Vision Logo - Grey.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300 px; /* Adjust size to taste */
+  opacity: 0.1;
 }
